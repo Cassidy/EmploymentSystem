@@ -1,0 +1,407 @@
+/* ==全局设置== */
+
+BODY{
+background:#ffffff;
+color:#555555;
+font-size:12px;
+line-height:150%;
+background-position:center;
+text-decoration: none;
+background-image: url(../images/mybg.gif);
+} 
+
+TD{
+color:#555555;
+font-size:12px;
+line-height:150%;
+}
+
+
+
+SELECT{
+color:#555555;
+FONT-SIZE: 12px;
+HEIGHT: 20px;
+}
+
+
+A{text-decoration: none;}
+A:link {color:#555555;}
+A:visited {color:#555555;}
+A:active {color:#555555;}
+A:hover{color:#ff6611}
+
+
+li{line-height:150%}
+li.fang {LIST-STYLE-TYPE: square;}
+li.img  {LIST-STYLE-IMAGE: url(li.gif)}
+
+ul {MARGIN: 0px 5px 0px 25px}
+ul.fang {LIST-STYLE-TYPE: square }
+ul.img  {LIST-STYLE-IMAGE: url(li.gif)}
+
+.errdiv{
+
+}
+
+.INPUT{
+	color:#555555;
+	font-size:14px;
+	height:22px;
+	padding:1px;
+	border:1px #a2a2a2 solid;
+	background-image: url(../images/inputbg.gif);
+}
+
+.TEXTAREA{
+color:#555555;
+font-size:12px;
+border:1px #a2a2a2 solid;
+padding:3px;
+}
+
+
+
+.button{color:#333333;font-size:12px;border:1px outset}
+
+
+/* ==报错样式== */
+
+.errdiv {color:#FF0000;padding-left:12px;text-align:top;font-size:12px}
+.sucdiv {color:#00FF00;padding-left:12px;text-align:top;font-size:12px}
+
+
+/* ==栏目菜单样式== */
+
+.menu {width:100px;padding-top:3px;white-space: nowrap} 
+A.menu {color:#ffffff;font-size:12px;text-decoration: none} 
+A.menu:link{color:#ffffff;}
+A.menu:visited{color:#ffffff;}
+A.menu:active{color:#ffffff;}
+A.menu:hover{color:#F6F872;}
+
+
+.menunow {width:100px;padding-top:3px;white-space: nowrap} 
+A.menunow {color:#FF6000;font-size:12px;text-decoration: none} 
+A.menunow:link{color:#FF6000;}
+A.menunow:visited{color:#FF6000;}
+A.menunow:active{color:#FF6000;}
+A.menunow:hover{color:#FF6000;}
+
+
+.btmenu {color:#ffffff;font-size:12px;line-height:150%;text-decoration: none} 
+A.btmenu:link{color:#ffffff;}
+A.btmenu:visited{color:#ffffff;}
+A.btmenu:active{color:#ffffff;}
+A.btmenu:hover{color:#ff9933;}
+
+.smenu {color:#ffffff;font-size:12px;line-height:150%;text-decoration: none} 
+A.smenu:link{color:#ffffff;}
+A.smenu:visited{color:#ffffff;}
+A.smenu:active{color:#ffffff;}
+A.smenu:hover{color:#ffffff;}
+
+.smenuv {color:#555555;font-size:12px;line-height:150%;text-decoration: none} 
+td.smenuv {border:0px #ffffff solid} 
+A.smenuv:link{color:#555555;}
+A.smenuv:visited{color:#555555;}
+A.smenuv:active{color:#555555;}
+A.smenuv:hover{color:#ff6600;}
+
+
+/* ==页内导航样式== */
+
+.nav {color:#555555;font-size:12px;} 
+td.nav {padding-left:5px} 
+
+
+/* ==表格样式== */
+
+td.title{background:#eeeeee}
+td.con{background:#ffffff}
+.table{border:1px #dddddd solid}
+.tablemenu{color:#555555;BORDER-RIGHT: #cccccc 1px solid; BORDER-TOP: #cccccc 1px solid; BORDER-LEFT: #cccccc 1px solid;background:#eeeeee}
+.line{background:#dddddd}
+
+
+
+/* ==交替样式== */
+
+.list{BACKGROUND-COLOR: expression((this.sectionRowIndex%2==0)?'#f5f5f5':'#ffffff');font-size:14px;}
+
+
+/* ==列表样式== */
+
+.tList{color:#555555;line-height:22px;font-size:12px}
+.tList1{color:#b0b0b0;line-height:150%;font-size:12px}
+
+a.tList{font-size:12px;;text-decoration: none}
+a.tList:link{color:#555555}
+a.tList:visited{color:#555555}
+a.tList:active{color:#555555}
+a.tList:hover{color:#ff6611}
+
+/* ==图片列表样式== */
+
+td.piclist{background:#ffffff}
+div.piclist{border:1px #dddddd solid;width:50px;height:50px;padding:1px;background:#ffffff}
+
+a.pictitle{color:#555555;font-size:12px;line-height:26px}
+div.pictitle{border:0px #dddddd solid;padding:1px;background:#ffffff}
+
+
+
+/* ==更多链接样式== */
+
+a.more{font-size:12px;;text-decoration: underline}
+a.more:link{color:#555555;}
+a.more:visited{color:#555555;}
+a.more:active{color:#555555;}
+a.more:hover{color:#ff6611;}
+
+/* ==树型菜单样式== */
+
+.dtree {color: #555555;font-size: 12.00px;	white-space: nowrap;}
+.dtree img  {border: 0px;	vertical-align: middle;}
+.dtree a   {color: #555555;font-size: 12.00px;	TEXT-DECORATION: none}
+.dtree a.node{color: #555555;white-space: nowrap;padding: 1px 2px 1px 2px;TEXT-DECORATION: none}
+.dtree a.nodeSel {color: #555555;font-size: 12.00px;	white-space: nowrap;	padding: 1px 2px 1px 2px;TEXT-DECORATION: none}
+.dtree a.node:hover {color: #555555;font-size: 12.00px;	TEXT-DECORATION: none}
+.dtree a.nodeSel:hover {color: #555555;	font-size: 12.00px;TEXT-DECORATION: none}
+.dtree a.nodeSel {background-color: #cfdfef;font-size: 12.00px;}
+.dtree .clip {overflow: hidden;}
+
+/* ==翻页样式== */
+
+.pagesinfo {color:#555555;font-size:12px;}
+.pagesnow {color:#ff6600;font-size:14px;text-decoration: none}
+.pages {color:#555555;font-size:14px;text-decoration: none}
+
+
+/* ==文章频道检索列表样式== */
+
+td.newsquery{height:23px}
+
+.newsquery{color:#555555;line-height:150%;font-size:12px}
+a.newsquery{color:#555555;line-height:150%;font-size:12px;text-decoration: none}
+a.newsquery:link{color:#555555;}
+a.newsquery:active{color:#555555;}
+a.newsquery:visited{color:#555555;}
+a.newsquery:hover{color:#ff6611;}
+
+.newsquerytitle{border:1px #eeeeee solid;background:#f0f0f0}
+.newsquerytime{color:#555555;font-size:12px}
+
+
+/* ==文章频道详情样式== */
+
+.newstitle {color:#333333;font-size:18px;font-weight:bold}
+.newsinfo {background:#f0f0f0;color:#555555;font-size:12px;}
+.newscon {color:#555555;font-size:14px;line-height:160%;padding:15px}
+
+
+/* ==一级分类列表样式== */
+
+.class{color:#555555;font-size:14px;}
+a.class{color:#555555;text-decoration: none}
+a.class:link{color:#555555;}
+a.class:visited{color:#555555;}
+a.class:hover{color:#ff6611;}
+
+table.class{border:1px #dddddd solid}
+td.class{padding-left:10px}
+
+/* ==二级分类列表样式== */
+
+table.bigclass{border:1px #dddddd solid}
+td.bigclass{background:#eeeeee;padding-left:10px;height:25px}
+
+.bigclass{color:#555555;font-size:12px;line-height:150%}
+a.bigclass{color:#555555;font-weight:bold;line-height:150%;text-decoration: none}
+a.bigclass:link{color:#555555;}
+a.bigclass:visited{color:#555555;}
+a.bigclass:actived{color:#555555;}
+a.bigclass:hover{color:#ff6611;}
+
+
+table.smallclass{border:0px #dddddd solid}
+td.smallclass{background:#f2f2f2;padding-left:10px;height:18px}
+
+.smallclass{color:#555555;font-size:12px;line-height:150%}
+a.smallclass{color:#555555;line-height:150%;text-decoration: none}
+a.smallclass:link{color:#555555;}
+a.smallclass:visited{color:#555555;}
+a.smallclass:actived{color:#555555;}
+a.smallclass:hover{color:#ff6611;}
+
+
+
+/* ==下载频道样式== */
+
+td.downquery{height:22px}
+
+.downquery{color:#555555;line-height:150%;font-size:12px}
+a.downquery{color:#555555;line-height:150%;font-size:12px;text-decoration: none}
+a.downquery:link{color:#555555;}
+a.downquery:active{color:#555555;}
+a.downquery:visited{color:#555555;}
+a.downquery:hover{color:#ff6611;}
+
+.downquerytitle{border:1px #eeeeee solid;background:#f0f0f0}
+.downquerytime{color:#555555;font-size:12px}
+
+.downpropname{color:#555555;font-size:12px;background:#dddddd}
+.downprop{color:#555555;font-size:12px;padding-left:10px;background:#f0f0f0}
+.downintro {color:#555555;font-size:12px;line-height:150%;}
+
+
+/* ==图文频道样式== */
+
+.cpline{background:#dddddd}
+td.cpquery{background:#ffffff;}
+div.cpquery{border:1px #eeeeee solid;padding:5px;background:#ffffff;}
+
+a.cpquerytitle{color:#555555;font-size:12px;line-height:26px}
+div.cpquerytitle{border:1px #eeeeee solid;padding:2px;background:#f7f7f7}
+
+
+.cppropname{color:#555555;font-size:12px;background:#dddddd}
+.cpprop{color:#555555;font-size:12px;padding-left:10px;background:#f0f0f0}
+.cpintro {color:#555555;font-size:12px;line-height:150%;}
+
+
+/* ==提示信息样式== */
+
+.notic{font-size:12px;color:#555555}
+.noticerr{font-size:12px;color:#ff6600}
+.noticlink{font-size:12px;color:#ff6600}
+
+
+/* ==会员频道样式== */
+
+.mustfill {color:#ff0000;font-size:14px;}
+.memberinfo{color:#555555;}
+
+
+/* ==评论样式== */
+
+td.bbsquery{height:23px}
+
+.bbsquery{color:#555555;line-height:150%;font-size:12px}
+a.bbsquery{color:#555555;line-height:150%;font-size:12px;text-decoration: none}
+a.bbsquery:link{color:#555555;}
+a.bbsquery:active{color:#555555;}
+a.bbsquery:visited{color:#555555;}
+a.bbsquery:hover{color:#ff6611;}
+
+.bbsquerytitle{border:1px #eeeeee solid;background:#f0f0f0}
+.bbsquerytime{color:#555555;font-size:12px}
+
+
+.bbstitle{background:#eeeeee}
+.bbscon{background:#ffffff}
+.bbstable{background:#dddddd;}
+.bbsline{background:#dddddd}
+
+/* ==灰色小字== */
+
+.fontg{color:#666666;line-height:130%;font-size:12px}
+a.fontg{color:#666666;line-height:150%;font-size:12px;text-decoration: none}
+a.fontg:link{color:#666666}
+a.fontg:active{color:#666666}
+a.fontg:visited{color:#666666}
+a.fontg:hover{color:#ff6600;text-decoration: underline}
+
+/* ==白色小字== */
+
+.fontw{color:#ffffff;line-height:130%;font-size:12px}
+a.fontw{color:#ffffff;line-height:150%;font-size:12px;text-decoration: none}
+a.fontw:link{color:#ffffff}
+a.fontw:active{color:#ffffff}
+a.fontw:visited{color:#ffffff}
+a.fontw:hover{color:#ffffff;text-decoration: underline}
+
+/* ==浅灰小字== */
+
+.fonts{color:#b5b5b5;line-height:130%;font-size:12px}
+a.fonts{color:#b5b5b5;line-height:150%;font-size:12px;text-decoration: none}
+a.fonts:link{color:#b5b5b5}
+a.fonts:active{color:#b5b5b5}
+a.fonts:visited{color:#b5b5b5}
+a.fonts:hover{color:#ffffff;text-decoration: underline}
+
+
+/* ==全站搜索样式== */
+
+.searchtitle{color:#555555;font-size:14px;line-height:32px}
+a.searchtitle{color:#555555;font-size:14px;line-height:32px}
+.searchbody{color:#333333;font-size:13px;line-height:18px;height:60px}
+.searchtime{color:#555555;font-size:12px}
+
+/* ==会员注册== */
+.noticediv{display:block;border:1px #fc5959 solid;background:#FFFDF4 url(chk_msg.gif) 10px no-repeat;padding-left:33px;line-height:20px;margin:3px 0px}
+#MainPromotionBanner{
+	width:486px;
+	height:188px;
+	background:#feb900;
+}
+#SlidePlayer {
+	position:relative;
+	margin: 0 auto;
+}
+#MainPromotionBanner .Slides{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	height: 188px;
+	overflow: hidden;
+}
+#MainPromotionBanner .Slides li {
+	float: left;
+	width: 486px;
+	height: 188px;
+}
+
+#MainPromotionBanner .Slides img{
+	border:0;
+	display: block;
+	width: 486px;
+	height: 188px;
+}
+
+#MainPromotionBanner .SlideTriggers{
+	margin: 0;
+	padding: 0;
+	list-style: none; 
+	position: absolute; 
+	top: 160px; 
+	right: 0px;
+	z-index: 10;
+	height: 25px;	
+}
+#MainPromotionBanner .SlideTriggers li{
+	float: left;
+	display: inline;
+	color: #74a8ed;
+	text-align: center;
+	line-height:16px;
+	width: 16px;
+	height: 16px;
+	font-family: Arial;
+	font-size: .9em;
+	cursor: pointer;
+	overflow: hidden; 
+	margin:3px 6px;
+	background: url(slide_trigger.gif) no-repeat center center;
+}
+#MainPromotionBanner .SlideTriggers li.Current{ 
+	color:#fff; 
+	background: url(slide_trigger_c.gif) no-repeat center center;
+	border:0; 
+	font-weight:bold;
+	font-size: 1.4em;
+	line-height: 21px;
+	height: 21px;
+	width: 21px;
+	margin:0 6px; 
+}
